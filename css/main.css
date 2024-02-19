@@ -2,8 +2,8 @@ h1 {
 	color: rgb(219, 125, 190);
 	font-size: 45px;
 	text-align: center;
-  -webkit-text-stroke: 1px rgb(191, 73, 156);
-  font-family: 'Cormorant Infant', sans-serif;
+    -webkit-text-stroke: 1px rgb(191, 73, 156);
+    font-family: 'Cormorant Infant', sans-serif;
 }
 h2 {
 	color: rgb(219, 125, 190);
@@ -14,12 +14,18 @@ h2 {
 	font-family: 'Cormorant Infant', sans-serif;
 	background: black;
 }
-p{
+p, ul{
 	color: rgb(212, 150, 193);
 	font-size: 25px;
     text-align: left;
     font-weight: 800;
     font-family: 'Cormorant Infant', sans-serif;
+}
+ul {
+	list-style: none;
+}
+ul li:before {
+	content: '-';
 }
 
 .first-div {
@@ -38,7 +44,6 @@ p{
 	margin: auto;
 	padding: 20px;
 }
-
 .third-div
 {
 	border: 8px dotted pink;
